@@ -8,3 +8,7 @@ management:
   tracing:
     sampling:
       probability: 1.0
+  endpoints:
+      web:
+         exposure:
+            include: refresh # or "*" if refresh not working and add @RefreshCcope with the mian spring boot application
