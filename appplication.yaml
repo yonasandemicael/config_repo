@@ -8,6 +8,7 @@ management:
   tracing:
     sampling:
       probability: 1.0
+      #to get the updates from the config serfer using refresh end pooint provide by the acctutor set the ff proper
   endpoints:
       web:
          exposure:
