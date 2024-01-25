@@ -12,5 +12,5 @@ management:
   endpoints:
       web:
          exposure:
-            include: refresh # or "*" if refresh not working and add @RefreshCcope with the mian spring boot application
+            include: "*" #refresh # or "*" if refresh not working and add @RefreshCcope with the mian spring boot application
 title: demo
