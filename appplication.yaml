@@ -1,5 +1,10 @@
+# this are the common config properties that sholud be provided by the config servver as central configuration to avod duplication of codes
 eureka:
   client:
   #this client should register to the server -i.e the url given below
    service-url:
     defaultZone: http://localhost:8761/eureka/
+management:
+  tracing:
+    sampling:
+      probability: 1.0
